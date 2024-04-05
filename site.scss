@@ -1,0 +1,15 @@
+$primary: #130080;
+
+@import "~bootstrap/scss/bootstrap";
+
+html {
+    font-family:Arial;
+}
+
+html,
+body,
+#app {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+}
